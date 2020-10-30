@@ -11,7 +11,7 @@ void main() {
   print(
       '${object.getA()}  ${object.getB()}  ${object.getC()}'); // print the values of variables of file class
   print(object
-      .x); // as file class inherit file2 class, so values of x y z can be printed through object of file class
+      .z); // as file class inherit file2 class, so values of x y z can be printed through object of file class
   print(object.y);
-  print(object.z);
+  print(object.x);
 }
